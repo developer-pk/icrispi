@@ -6,25 +6,10 @@ include('scaffolding/header.php');
 ?>
 <!--Start Hero-->
 <section class="hero-section hero-bg-bg1 digi-mkt bg-gradient1">
-  <div class="text-block">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 v-center">
-          <div class="header-heading">
-            <h1 class="wow fadeInUp" data-wow-delay=".2s"><span class="xhighlight">Result Based</span> Digital Marketing</h1>
-            <p class="wow fadeInUp" data-wow-delay=".4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus, risus sit amet auctor sodales, justo erat tempor eros.</p>
-            <a href="#" class="btn-main bg-btn lnk wow fadeInUp" data-wow-delay=".6s">View Case Studies <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-          </div>
-        </div>
-        <div class="col-lg-6 v-center">
-          <div class="single-image wow fadeIn" data-wow-delay=".5s">
-            <img src="images/hero/digital-marketing.png" alt="hero image" class="img-fluid" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<?php
+include('scaffolding/slider.php');
+?>
+</section> <!-- End of Slider -->
 <!--End Hero-->
 <!--Start About-->
 <section class="about-agency pad-tb">
